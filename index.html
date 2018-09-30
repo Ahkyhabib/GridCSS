@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Grid test</title>
+</head>
+
+<body>
+    
+       <!-- Header Section -->
+       <header id="showcase" class="grid"></header>
+       
+       <!-- I'm putting the bg image for the header in a seporate div to add effects-->
+       <div class="bg-image"> </div>
+       
+       <div class="hearder-content">
+       <div class="content-wrap">
+       <h1>Title Goes Here</h1>
+       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+           Consequuntur quia ex, non explicabo maiores doloremque laborum 
+           distinctio aut voluptatem officia!</p>
+       
+       <!-- This is the button href="#section-b" is naming convention for CSS -->  
+       <a href="#section-b" class="btn">Read More</a>
+       </div>
+       </div>  
+      
+       <!-- Main Section.  This section will house the other components. -->
+       <main id="main">
+       
+       <!-- This is section A. 
+        The reason I want to use ids and classes like section-a is 
+        to easily change the componets around as needed -->
+        <section id="section-a" class="grid">
+       
+       <!-- The content-wrap class is to contain the content so that it will
+        stack in device view -->
+       <div class="content-wrap">
+          <h2 class="content-title">A title will be here</h2>
+          
+          <div class="content-text">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Cum ipsa ratione soluta maiores sunt, inventore voluptatum 
+              adipisci assumenda ad facere enim cumque corrupti saepe minus 
+              excepturi, tempora est dolor totam similique rerum. Nam sint 
+              nulla nostrum, sit provident reiciendis ut?</p>
+       </div>
+       </div>
+      </section>
+
+      <!-- Section B -->
+      <!-- The ul list is to create cards. There will be three images 
+        with titles and text in this section. Thre will be a bg -->
+      <section id="section-b" class="grid">
+          <ul>
+              <li>
+                  <div class="card">
+                  <img src="https://images.pexels.com/photos/164516/pexels-photo-164516.jpeg?cs=srgb&dl=architecture-building-facade-164516.jpg&fm=jpg">    
+                  </div>
+                  <div class="card-content">
+                      <div class="card-title">Home Stuff 1</div>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                          Dolorum blanditiis ab doloribus harum itaque saepe minus 
+                          dolor, id ipsam reprehenderit.</p>
+                  </div>
+              </li>
+
+              <li>
+                    <div class="card">
+                    <img src="https://images.pexels.com/photos/1288482/pexels-photo-1288482.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">    
+                    </div>
+                    <div class="card-content">
+                        <div class="card-title">Home Stuff 2</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Dolorum blanditiis ab doloribus harum itaque saepe minus 
+                            dolor, id ipsam reprehenderit.</p>
+                    </div>
+                </li>
+
+                <li>
+                        <div class="card">
+                        <img src="https://images.pexels.com/photos/279607/pexels-photo-279607.jpeg?cs=srgb&dl=architecture-contemporary-couch-279607.jpg&fm=jpg">    
+                        </div>
+                        <div class="card-content">
+                            <div class="card-title">Home Stuff 3</div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Dolorum blanditiis ab doloribus harum itaque saepe minus 
+                                dolor, id ipsam reprehenderit.</p>
+                        </div>
+                    </li>
+                </ul>
+      </section>
+
+      <!-- Section C This section will be another description-->
+      <section id="section-c" class="grid">
+          <div class="content-wrap">
+              <div class="class-content">
+              <h2 class="content-title">This is more content</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Neque culpa laudantium nobis nulla sequi atque. Totam harum ipsum sunt 
+                  laboriosam animi nam quidem perspiciatis ullam ducimus corrupti voluptatem 
+                  veritatis, dolorem laudantium sed nihil. Eligendi voluptatibus neque rem 
+                  consequuntur repellendus aperiam!</p>
+          </div>
+          </div>
+      </section>
+
+      <!-- Section d.  This section will have about and contact info -->
+        <section id="section-d" class="grid">
+            <div class="box">
+              <h2 class="content-title"> Some Content Here</h2> 
+              <p>Lorem ipsum dolor sit amet consectetur 
+                  adipisicing elit. Obcaecati cumque reiciendis dolor voluptatibus. 
+                  Aliquid vel qui porro eius dicta unde?</p>
+                  <p>email@place.com</p>
+            </div>
+            <div class="box">
+                <h2 class="content-title"> About the Content</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Laborum culpa distinctio corrupti natus magnam debitis itaque, 
+                    libero, repellendus officia laudantium adipisci ab rem? Totam numquam 
+                    veritatis mollitia ullam, nisi deserunt, eligendi nam deleniti atque 
+                    facere beatae eaque molestiae dignissimos maiores.</p>
+            </div>
+        </section>
+      </main>
+
+      <!-- This section will house the footer -->
+      <footer id="main-footer" class="grid">
+         <div>Some info</div>
+         <div>more info like a number or social media</div> 
+      </footer>
+    </body>
+</html>
